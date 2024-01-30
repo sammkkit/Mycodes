@@ -49,9 +49,9 @@ void mergeSort(int *arr , int s, int e){
 
 int main(){ 
 
-    int arr[9] = {10,9,8,7,6,5,4,3,2};
-    mergeSort(arr,0,8);
-    f(i,0,9)cout<<arr[i]<<" ";
+    int arr[7] = {-1, 2, 3, 4, 9, 8, -100};
+    mergeSort(arr,0,6);
+    f(i,0,7)cout<<arr[i]<<" ";
     return 0; 
 
 }
