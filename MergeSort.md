@@ -15,7 +15,7 @@ void merge(int *arr,int s, int e){
     f(i,0,len2)second[i]=arr[mid+1+i];
     int index1=0;
     int index2=0;
-    int mainIndex=0;
+    int mainIndex=s;
     while(index1<len1 && index2<len2){
         if(first[index1]<second[index2]){
             arr[mainIndex]=first[index1];
